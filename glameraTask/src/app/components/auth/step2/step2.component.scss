@@ -1,0 +1,79 @@
+.bg-img {
+  background: url("../../../../assets/images/step2-bg.svg") no-repeat;
+
+  background-size: cover;
+  height: 100vh;
+  width: 55vh;
+}
+.sign-up {
+  background: #f5f6f9;
+}
+.having-troubles {
+  font: normal normal normal 14px/28px Poppins;
+  letter-spacing: 0px;
+  color: #38383880;
+}
+.get-help {
+  font: normal normal 600 14px/28px Poppins;
+  letter-spacing: 0px;
+}
+.sign-up-title {
+  font: normal normal 600 24px/24px Poppins;
+  letter-spacing: 0px;
+  color: #454c66;
+  opacity: 1;
+}
+.sign-up-description {
+  font: normal normal normal 16px/28px Poppins;
+  letter-spacing: 0px;
+  color: #747a88;
+  opacity: 1;
+  width: 400px;
+}
+form {
+  margin-right: 11rem !important;
+}
+.toggle-password {
+  right: 12px;
+  top: 2px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.next-btn {
+  width: 200px;
+}
+.contain-btn-next {
+  display: flex;
+  justify-content: space-between;
+}
+label {
+  font: normal normal normal 14px/28px Poppins;
+  letter-spacing: 0px;
+  color: #454c66;
+}
+
+.left-side {
+  height: 100%;
+}
+.radio-input {
+  width: 128px;
+  text-align: start;
+  background: #fff;
+}
+.glamera-logo {
+  width: 162px;
+  height: 42px;
+}
+.glamera-title {
+  font: normal normal 600 28px/37px Poppins;
+  color: #ffffff;
+  width: 298px;
+}
+.glamera-discription {
+  font: normal normal normal 16px/28px Poppins;
+  color: #ffffff;
+  width: 243px;
+}
+.glamera-text {
+  padding-top: 90px;
+}

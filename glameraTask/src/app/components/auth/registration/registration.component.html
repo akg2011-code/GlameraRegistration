@@ -21,14 +21,14 @@
 
   <div class="col-md-8 sign-up">
     <div class="container">
-      <div class="row g-2 p-5">
+      <div class="row g-2 pt-5 px-5">
         <div class="col-md-12 justify-content-end align-items-center text-end">
           <p class="having-troubles">
             Having troubles?
             <a href="#" class="get-help text-decoration-none">Get Help</a>
           </p>
         </div>
-        <div class="col-md-12 pt-5">
+        <div class="col-md-12 pt-4">
           <h1 class="sign-up-title">Start your business now</h1>
           <div class="underLine-line">
             <svg width="130" height="20" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +44,7 @@
             address to continue.
           </p>
         </div>
-        <div class="col-md-12 pt-5">
+        <div class="col-md-12 pt-3">
           <form class="row g-3">
             <div class="col-md-6">
               <label for="FirstName" class="form-label">First Name</label>
@@ -207,7 +207,7 @@
           <button
             type="button"
             class="btn btn-primary px-5 py-2"
-            (click)="openModal()"
+            [routerLink]="['/auth/step2']"
           >
             VERIFY
           </button>
