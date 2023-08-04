@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegistrationComponent implements OnInit {
   displayPassword = false;
+  display = 'none';
   constructor() {}
 
   ngOnInit(): void {}
+  openModal() {
+    this.display = 'block';
+  }
+  onCloseHandled() {
+    this.display = 'none';
+  }
 }

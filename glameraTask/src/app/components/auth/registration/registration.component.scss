@@ -33,8 +33,10 @@ form {
   margin-right: 11rem !important;
 }
 .toggle-password {
-  right: 0px;
+  right: 12px;
   top: 2px;
+  cursor: pointer;
+  font-size: 20px;
 }
 .next-btn {
   width: 135px;
@@ -82,4 +84,23 @@ label {
   top: -15%;
   left: 13%;
   width: 10%;
+}
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+}
+.close-icon {
+  font-size: 23px;
+  cursor: pointer;
+}
+.verifi-title {
+  font: normal normal 600 24px/24px Poppins;
+  color: #454c66;
+}
+.verifi-description {
+  font: normal normal normal 16px/28px Poppins;
+  color: #747a88;
+}
+.verifi-sub-description {
+  font: normal normal medium 14px/24px Poppins;
+  color: #747a88;
 }

@@ -106,7 +106,7 @@
                   aria-describedby="button-addon2"
                 />
                 <span
-                  class="btn z-3 position-absolute toggle-password"
+                  class="z-3 position-absolute toggle-password"
                   (click)="displayPassword = !displayPassword"
                 >
                   <i *ngIf="!displayPassword" class="bi bi-eye-slash"></i>
@@ -140,8 +140,7 @@
               <button
                 type="button"
                 class="btn btn-primary next-btn"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                (click)="openModal()"
               >
                 <span class="contain-btn-next">
                   <span>Next</span>
@@ -151,6 +150,67 @@
               </button>
             </div>
           </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" tabindex="-1" role="dialog" [ngStyle]="{ display: display }">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="d-flex justify-content-start">
+          <i class="bi bi-x close-icon" (click)="onCloseHandled()"></i>
+        </div>
+        <div class="d-flex justify-content-center">
+          <img
+            src="/assets/images/mail-img.svg"
+            class="img-fluid rounded-top"
+            alt=""
+          />
+        </div>
+        <div class="text-center p-4">
+          <h2 class="verifi-title">Verification Code</h2>
+          <p class="verifi-description pt-2">
+            Please enter the verification code sent to your phone number ** 34
+          </p>
+        </div>
+        <div class="row justify-content-center align-items-center g-2 px-5">
+          <div class="col">
+            <div class="input-group input-group-lg">
+              <input type="text" class="form-control text-center" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-group input-group-lg">
+              <input type="text" class="form-control text-center" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-group input-group-lg">
+              <input type="text" class="form-control text-center" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-group input-group-lg">
+              <input type="text" class="form-control text-center" />
+            </div>
+          </div>
+        </div>
+        <div class="text-center p-4">
+          <p class="verifi-sub-description">
+            The code will be sent again within
+            <span class="text-info">59</span> seconds
+          </p>
+        </div>
+        <div class="d-flex justify-content-center p-3">
+          <button
+            type="button"
+            class="btn btn-primary px-5 py-2"
+            (click)="openModal()"
+          >
+            VERIFY
+          </button>
         </div>
       </div>
     </div>
