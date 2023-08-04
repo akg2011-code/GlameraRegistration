@@ -1,0 +1,85 @@
+.bg-img {
+  background: url("../../../../assets/images/gilr-BG.jpg") no-repeat;
+
+  background-size: cover;
+  height: 100vh;
+}
+.sign-up {
+  background: #f5f6f9;
+}
+.having-troubles {
+  font: normal normal normal 14px/28px Poppins;
+  letter-spacing: 0px;
+  color: #38383880;
+}
+.get-help {
+  font: normal normal 600 14px/28px Poppins;
+  letter-spacing: 0px;
+}
+.sign-up-title {
+  font: normal normal 600 24px/24px Poppins;
+  letter-spacing: 0px;
+  color: #454c66;
+  opacity: 1;
+}
+.sign-up-description {
+  font: normal normal normal 16px/28px Poppins;
+  letter-spacing: 0px;
+  color: #747a88;
+  opacity: 1;
+  width: 400px;
+}
+form {
+  margin-right: 11rem !important;
+}
+.toggle-password {
+  right: 0px;
+  top: 2px;
+}
+.next-btn {
+  width: 135px;
+}
+.contain-btn-next {
+  display: flex;
+  justify-content: space-between;
+}
+label {
+  font: normal normal normal 14px/28px Poppins;
+  letter-spacing: 0px;
+  color: #454c66;
+}
+.identity-card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px 16px 57px 16px;
+  width: 23%;
+  bottom: 3%;
+  left: 13%;
+  color: #383838;
+  .description {
+    font: normal normal normal 14px/24px Poppins;
+  }
+  .title {
+    font: normal normal medium 16px/24px Poppins;
+    font-weight: 600;
+  }
+  .sub-tilte {
+    font: normal normal normal 12px/24px Poppins;
+    opacity: 0.5;
+  }
+  .extra-img {
+    left: -11%;
+    top: -25%;
+  }
+}
+.left-side {
+  height: 100%;
+  background: transparent linear-gradient(180deg, #6959cb00 0%, #635ca8 130%) 0%
+    0% no-repeat padding-box;
+}
+.underLine-line {
+  position: relative;
+  rotate: -4deg;
+  top: -15%;
+  left: 13%;
+  width: 10%;
+}

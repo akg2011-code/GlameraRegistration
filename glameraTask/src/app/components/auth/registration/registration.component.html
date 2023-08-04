@@ -1,0 +1,158 @@
+<div class="row g-0 mx-0">
+  <div class="col-md-4 bg-img">
+    <div class="left-side">
+      <div class="z-3 position-absolute identity-card p-4">
+        <img
+          class="z-4 position-absolute extra-img"
+          src="/assets/images/Group 52.svg"
+          alt="Group 52"
+          width="80"
+          height="80"
+        />
+        <p class="description">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry
+        </p>
+        <p class="title p-0 m-0">Salma Mohamed</p>
+        <p class="sub-tilte p-0 m-0">Founder, Soliter Salon</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-8 sign-up">
+    <div class="container">
+      <div class="row g-2 p-5">
+        <div class="col-md-12 justify-content-end align-items-center text-end">
+          <p class="having-troubles">
+            Having troubles?
+            <a href="#" class="get-help text-decoration-none">Get Help</a>
+          </p>
+        </div>
+        <div class="col-md-12 pt-5">
+          <h1 class="sign-up-title">Start your business now</h1>
+          <div class="underLine-line">
+            <svg width="130" height="20" xmlns="http://www.w3.org/2000/svg">
+              <path
+                style="fill: transparent; stroke: rgb(106, 199, 187)"
+                stroke-width="3"
+                d="M 5.719 15.523 C 5.719 8.536 118.464 9.451 118.464 15.523"
+              ></path>
+            </svg>
+          </div>
+          <p class="sign-up-description pt-2">
+            Creating your company is just a few steps away, Enter your email
+            address to continue.
+          </p>
+        </div>
+        <div class="col-md-12 pt-5">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="FirstName" class="form-label">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="FirstName"
+                placeholder="Enter your first name"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="LastName" class="form-label">Last Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="LastName"
+                placeholder="Enter your last name"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="EmailAddress" class="form-label">Email Address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="EmailAddress"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="PhoneNumber" class="form-label">Phone Number</label>
+              <div class="input-group mb-3">
+                <span class="input-group-text p-1" id="basic-addon1">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Flag_of_Saudi_Arabia_%281938%E2%80%931973%29.svg"
+                    width="35"
+                    height="20"
+                    alt=""
+                  />
+                  +966
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Your Phone"
+                  aria-label="PhoneNumber"
+                  aria-describedby="PhoneNumber"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+
+              <div class="input-group mb-3">
+                <input
+                  [type]="!displayPassword ? 'password' : 'text'"
+                  class="form-control"
+                  placeholder="Enter your Password"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2"
+                />
+                <span
+                  class="btn z-3 position-absolute toggle-password"
+                  (click)="displayPassword = !displayPassword"
+                >
+                  <i *ngIf="!displayPassword" class="bi bi-eye-slash"></i>
+                  <i *ngIf="displayPassword" class="bi bi-eye"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-md-6"></div>
+
+            <div class="col-md-6">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Agree to the
+                  <a class="text-decoration-none text-info" href="#"
+                    >Privacy Policy</a
+                  >
+                  and
+                  <a class="text-decoration-none text-info" href="#"
+                    >Terms & Conditions</a
+                  >
+                </label>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+              <button
+                type="button"
+                class="btn btn-primary next-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <span class="contain-btn-next">
+                  <span>Next</span>
+
+                  <i class="bi bi-arrow-right"></i>
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
