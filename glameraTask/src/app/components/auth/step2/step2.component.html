@@ -1,5 +1,5 @@
 <div class="row g-0 mx-0">
-  <div class="col-md-4 bg-img">
+  <div class="col-md-4 bg-img d-none d-lg-block xl-lg-block xxl-lg-block">
     <div class="left-side">
       <div class="d-flex justify-content-start pt-5 ps-5">
         <div class="pt-3">
@@ -23,7 +23,7 @@
 
   <div class="col sign-up">
     <div class="container">
-      <div class="row g-2 pt-5 px-5">
+      <div class="row g-2 pt-md-5 px-md-5 pt-3 px-2">
         <div class="col-md-12 justify-content-end align-items-center text-end">
           <p class="having-troubles">
             Having troubles?
@@ -31,7 +31,10 @@
           </p>
         </div>
         <div class="col-md-12">
-          <div class="d-flex justify-content-start">
+          <div
+            class="d-flex justify-content-start"
+            [routerLink]="['/auth/step1']"
+          >
             <i class="bi bi-arrow-left"></i>
           </div>
           <h1 class="sign-up-title pt-3">Choose the type of business</h1>
@@ -198,7 +201,7 @@
               </div>
             </div>
 
-            <div class="col-md-12 d-flex justify-content-end">
+            <div class="col-md-12 d-flex justify-content-end pb-3">
               <button
                 type="button"
                 class="btn btn-primary next-btn"

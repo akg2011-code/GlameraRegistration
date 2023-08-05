@@ -7,6 +7,7 @@
 }
 .sign-up {
   background: #f5f6f9;
+  height: 100vh;
 }
 .having-troubles {
   font: normal normal normal 14px/28px Poppins;
@@ -76,4 +77,34 @@ label {
 }
 .glamera-text {
   padding-top: 90px;
+}
+
+@media only screen and (max-width: 1200px) {
+  form {
+    margin-right: 0rem !important;
+  }
+  .bg-img {
+    height: 125vh;
+  }
+  .glamera-title {
+    width: 230px;
+  }
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (max-width: 414px) {
+  .sign-up-description {
+    width: 100%;
+  }
+  form {
+    margin-right: 0rem !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .sign-up-description {
+    width: 100%;
+  }
+  form {
+    margin-right: 0rem !important;
+  }
 }

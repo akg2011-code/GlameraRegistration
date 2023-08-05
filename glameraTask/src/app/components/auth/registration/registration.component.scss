@@ -104,3 +104,101 @@ label {
   font: normal normal medium 14px/24px Poppins;
   color: #747a88;
 }
+
+@media only screen and (max-width: 1200px) {
+  form {
+    margin-right: 0rem !important;
+  }
+  .bg-img {
+    height: 116vh;
+  }
+  .identity-card {
+    width: 28%;
+    bottom: -12%;
+    left: 8%;
+  }
+  .underLine-line {
+    left: 18%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  form {
+    margin-right: 0rem !important;
+  }
+  .bg-img {
+    height: 116vh;
+  }
+  .identity-card {
+    width: 32%;
+    bottom: -13%;
+    left: 6%;
+  }
+  .underLine-line {
+    left: 22%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .sign-up {
+    height: 100vh;
+  }
+  .underLine-line {
+    left: 19%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sign-up-description {
+    width: 100%;
+  }
+  form {
+    margin-right: 0rem !important;
+  }
+  .sign-up {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .underLine-line {
+    left: 24%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .sign-up {
+    height: 118vh;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .underLine-line {
+    left: 31%;
+  }
+  .sign-up-description {
+    width: 100%;
+  }
+  form {
+    margin-right: 0rem !important;
+  }
+  .sign-up {
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .underLine-line {
+    top: -12%;
+    left: 35%;
+  }
+  .sign-up-description {
+    width: 100%;
+  }
+  form {
+    margin-right: 0rem !important;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .underLine-line {
+    top: -19%;
+    left: 48%;
+  }
+  .sign-up {
+    height: 146vh;
+  }
+}
