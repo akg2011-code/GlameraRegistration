@@ -25,9 +25,7 @@
             "inlineStyleLanguage": "scss",
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.scss"],
-            "scripts": [
-              "./node_modules/@lottiefiles/lottie-player/dist/lottie-player.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -90,9 +88,7 @@
             "inlineStyleLanguage": "scss",
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.scss"],
-            "scripts": [
-              "./node_modules/@lottiefiles/lottie-player/dist/lottie-player.js"
-            ]
+            "scripts": []
           }
         }
       }
